@@ -4,8 +4,7 @@ This repository provides a computational pipeline to predict compound toxicity a
 
 ---
 
-##python make_preds.py
- 🧬 Project Overview
+## Project Overview
 
 The goal of this project is to enable high-throughput toxicity screening of blood exposome compounds using pre-trained models. The predictions include:
 
@@ -14,7 +13,7 @@ The goal of this project is to enable high-throughput toxicity screening of bloo
 
 ---
 
-## 📦 Installation
+##  Installation
 
 To set up the environment locally, use the provided `requirements.txt` file. It contains all dependencies needed to run the prediction pipeline.
 
