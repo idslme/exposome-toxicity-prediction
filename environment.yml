@@ -1,0 +1,41 @@
+name: chemprop_env
+channels:
+  - conda-forge
+  - pytorch
+  - defaults
+
+dependencies:
+  - python=3.11
+  - pip
+
+  # Core scientific stack
+  - numpy
+  - pandas
+  - scikit-learn
+  - scipy
+  - networkx
+  - tqdm
+
+  # Cheminformatics
+  - rdkit
+
+  # PyTorch (GPU or CPU depending on system)
+  - pytorch
+  - pytorch-lightning
+
+  # Optional but used by Chemprop ecosystem
+  - joblib
+
+  - pip:
+      # Chemprop pinned to exact commit used in the paper
+      - git+https://github.com/chemprop/chemprop.git@01d6ca4164858b2122b66204f8ca934e41efd51a
+
+      # Descriptor / similarity tools
+      - descriptastorus==2.8.0
+      - mordredcommunity==2.0.6
+      - mhfp==1.9.6
+      - padelpy==0.1.16
+
+      # Utility dependencies
+      - lightning==2.5.0.post0
+      - torchmetrics==1.6.1

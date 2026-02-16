@@ -15,18 +15,17 @@ The goal of this project is to enable high-throughput toxicity screening of bloo
 
 ##  Installation
 
-To set up the environment locally, use the provided `requirements.txt` file. It contains all dependencies needed to run the prediction pipeline.
+To set up the environment locally, use the provided `environment.yml` file. It contains all dependencies needed to run the prediction pipeline.
 
 ```bash
-# Create a new conda environment
-conda create --name tox_pred_env python=3.8
-
-# Activate the environment
-conda activate tox_pred_env
-# Install dependencies
-pip install -r requirements.txt
+conda env create -f environment.yml
+conda activate chemprop_env
+chemprop --help
+python make_preds.py
 
 ```
+
+This project was developed and tested using Conda. While Conda is recommended for setup, a pip-compatible requirements.txt is also included.
 
 ---
 
