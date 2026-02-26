@@ -40,3 +40,6 @@ python make_preds.py input_file.csv output_file.csv
 The script will prompt users to select 2 files
 (1) A list of SMILES in a .csv file format with a single column of SMILES string 
 (2) Name for an output .csv file which will contain bioactivity predictions from 47 assays as well as GHS acute oral toxicity classification
+
+For ease of use and minimal local setup, all calculations can be run directly via the following Google Colab note book:
+https://colab.research.google.com/drive/1bqjZ_ap2TBZrRWik5qrSr2AvZzngJEW4#scrollTo=au4ebqnK9-Kw
