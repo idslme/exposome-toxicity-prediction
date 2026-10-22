@@ -43,3 +43,13 @@ The script will prompt users to select 2 files
 
 For ease of use and minimal local setup, all calculations can be run directly via the following Google Colab note book:
 https://colab.research.google.com/drive/1bqjZ_ap2TBZrRWik5qrSr2AvZzngJEW4#scrollTo=au4ebqnK9-Kw
+
+
+## License
+
+The source code in this repository is licensed under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) license.
+
+This license permits use, modification, and redistribution, including for commercial purposes, provided appropriate credit is given, a link to the license is included, and any modifications are indicated.
+
+See the [LICENSE.md](LICENSE.md) file for details.
+
